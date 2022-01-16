@@ -1,0 +1,4 @@
+3
+56C:\Users\user\Desktop\JS learning\npm-lesson1\index.html132867977417004687 0
+53C:\Users\user\Desktop\JS learning\npm-lesson1\main.js132867977332031147 0
+58C:\Users\user\Desktop\JS learning\npm-lesson1\package.json132867968660451447 0

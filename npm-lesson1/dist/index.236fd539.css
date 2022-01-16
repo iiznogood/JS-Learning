@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  box-shadow: rgba(red, green, blue, alpha);
+}
+
+.card p {
+  text-align: center;
+};
+
+.card img {
+  width: 100%;
+};
+/*# sourceMappingURL=index.236fd539.css.map */
