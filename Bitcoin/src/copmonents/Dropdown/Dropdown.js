@@ -6,12 +6,12 @@ const Dropdown = () => {
 
   const optionUsd = document.createElement('option');
   optionUsd.innerText = 'Backs';
-  optionUsd.value = 'Currencies.AmericanDollars';
+  optionUsd.value = Currencies.AmericanDollars;
   optionUsd.selected = '';
 
   const optionRub = document.createElement('option');
   optionRub.innerText = 'Rubles';
-  optionRub.value = 'Currencies.Rubles';
+  optionRub.value = Currencies.Rubles;
 
   select.append(optionUsd, optionRub);
 

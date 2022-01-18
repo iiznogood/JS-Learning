@@ -6,19 +6,19 @@ import Currencies from './constants/Currencies';
 const createChart = async (currency = Currencies.AmericanDollars) => {
   const data = await getBitcoinData(currency);
 
-  let lineChart = LineChart({ data: data.prices });
+  const lineChart = LineChart({ data: data.prices });
 
   return lineChart;
 };
 
   const App = async () => {
   const container = document.createElement('div');
-  const lineChart = await createChart();
+  let lineChart = await createChart();
 
   const dropdown = Dropdown();
 
   dropdown.onchange = async (event) => {
-    const currency = event.target.seletedOptions[0].value;
+    const currency = event.target.selectedOptions[0].value;
 
     container.removeChild(lineChart);
     lineChart = await createChart(currency);
